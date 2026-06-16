@@ -71,90 +71,6 @@ iskomate-showcase/
 ✅ **CTA Buttons** - Links to app download and GitHub  
 ✅ **SEO Ready** - Meta tags and semantic HTML  
 
-## 🎯 Customization
-
-### Change Team Members
-Edit the team section in `IskoMateShowcase.jsx`:
-```jsx
-{['Austria', 'Camota', 'Lee', 'Lincallo'].map((name, idx) => (
-  // Update with your actual team members
-))}
-```
-
-### Update Download Links
-Replace the download button URLs:
-```jsx
-<button onClick={() => window.location.href = 'YOUR_DOWNLOAD_LINK'}>
-  Download App
-</button>
-```
-
-### Modify Colors
-Edit `tailwind.config.js` to customize the color scheme:
-```js
-colors: {
-  red: {
-    500: '#B71C1C',  // Your primary red
-    600: '#B71C1C',
-    // ...
-  }
-}
-```
-
-### Add More Sections
-Add new sections in `IskoMateShowcase.jsx` before the footer.
-
-## 🚀 Deployment to Vercel
-
-### Option 1: Using Vercel CLI
-
-1. **Install Vercel CLI:**
-```bash
-npm install -g vercel
-```
-
-2. **Deploy:**
-```bash
-vercel
-```
-
-3. **Follow the prompts:**
-   - Select the project directory
-   - Confirm project settings
-   - Deploy!
-
-### Option 2: Using GitHub Integration
-
-1. **Push to GitHub:**
-```bash
-git add .
-git commit -m "Initial IskoMate showcase"
-git remote add origin https://github.com/YOUR_USERNAME/iskomate-showcase.git
-git push -u origin main
-```
-
-2. **Import to Vercel:**
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Select your GitHub repo
-   - Vercel auto-detects Vite settings
-   - Click "Deploy"
-
-### Option 3: Using package.json script
-
-```bash
-npm run deploy
-```
-
-(Make sure you're logged in with `vercel login` first)
-
-## 🔧 Build for Production
-
-```bash
-npm run build
-```
-
-This creates a `dist` folder with optimized production files.
 
 ## 📊 Engagement Levels Reference
 
@@ -186,13 +102,13 @@ This project is part of PUP College of Engineering coursework.
 ## 👥 Team
 
 - Austria
-- Camota
-- Lee
-- Lincallo
+- Ramos
+- Sutelleza
+- Tuazon
 
 **Institution:** PUP College of Engineering  
-**Course:** Neural Networks & Machine Learning  
-**Instructor:** Engr. Mon Arjay Malbog
+**Course:** CPE Design and Practice 2 
+**Instructor:** Engr. Rolito L. Mahaguay
 
 ## 🤝 Contributing
 
@@ -233,4 +149,4 @@ For issues with the showcase website, refer to:
 
 ---
 
-Built with ❤️ for IskoMate
+Built with love for IskoMate
