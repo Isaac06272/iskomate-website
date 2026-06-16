@@ -8,7 +8,7 @@ export default function IskoMateLanding() {
     { label: 'Highly Engaged', percentage: 35, color: '#B71C1C', textColor: 'white' },
     { label: 'Engaged', percentage: 28, color: '#EBE0D2', textColor: '#332C2B' },
     { label: 'Barely Engaged', percentage: 22, color: '#8B3A3A', textColor: 'white' },
-    { label: 'Not Engaged', percentage: 15, color: 'white', textColor: '#332C2B', border: true },
+    { label: 'Not Engaged', percentage: 15, color: 'white', textColor: '#201d1c', border: true },
   ];
 
   return (
