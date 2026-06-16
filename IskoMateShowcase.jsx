@@ -124,7 +124,7 @@ export default function IskoMateLanding() {
                             borderRight: level.border ? '2px solid #ccc' : 'none',
                           }}
                         >
-                          {level.percentage > 15 && (
+                          {level.percentage >= 15 && (
                             <span style={{ color: level.textColor }} className="text-xs font-bold">
                               {level.percentage}%
                             </span>
